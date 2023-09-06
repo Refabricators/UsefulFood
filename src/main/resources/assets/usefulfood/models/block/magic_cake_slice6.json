@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "usefulfood:block/magic_cake_side",
+        "bottom": "usefulfood:block/magic_cake_bottom",
+        "top": "usefulfood:block/magic_cake_top",
+        "side": "usefulfood:block/magic_cake_side",
+        "inside": "usefulfood:block/magic_cake_inner"
+    },
+    "elements": [
+        {   "from": [ 13, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "usefulfood",
+	"version": "${version}",
+	"name": "UsefulFood",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"TechPro424"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU Lesser General Public License v3.0 only",
+	"icon": "assets/usefulfood/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.refabricators.usefulfood.UsefulFood"
+		],
+		"client": [
+			"org.refabricators.usefulfood.UsefulFoodClient"
+		],
+		"fabric-datagen": [
+			"org.refabricators.usefulfood.UsefulFoodDataGenerator"
+		]
+	},
+	"mixins": [
+		"usefulfood.mixins.json",
+		{
+			"config": "usefulfood.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

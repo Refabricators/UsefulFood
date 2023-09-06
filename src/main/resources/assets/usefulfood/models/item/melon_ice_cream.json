@@ -1,0 +1,5 @@
+{
+"parent": "item/generated",
+ "textures": {
+"layer0": "usefulfood:item/melon_ice_cream"
+}}
