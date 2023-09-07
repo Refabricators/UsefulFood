@@ -41,16 +41,11 @@ public class ModItems {
     public static final Item EGG_SANDWICH = register(new UFFoodItem(6, 1.0f, 64, true, null), "egg_sandwich");
     public static final Item BISCUIT = register(new UFFoodItem(1, 0.3f, 64, true, null), "biscuit");
     public static final Item TRAILMIX = register(new BowlItem(4, 0.5f, false), "trailmix");
-
     public static final Item APPLE_CAKE = register(new UFSugarCaneItem((UFCakeBlock)ModBlocks.APPLE_CAKE), "apple_cake");
     public static final Item CHOCOLATE_CAKE = register(new UFSugarCaneItem((UFCakeBlock)ModBlocks.CHOCOLATE_CAKE), "chocolate_cake");
     public static final Item MAGIC_CAKE = register(new MagicCakeItem((UFCakeBlock)ModBlocks.MAGIC_CAKE), "magic_cake");
-
-
     public static final Item MUTTON_SANDWICH = register(new UFFoodItem(9, 1.0f, 64, true, null), "mutton_sandwich");
-
     public static final Item DEBUG_FOOD = register(new DebugFoodItem(), "debug_food");
-
     public static final Item SUSHI = register(new UFFoodItem(5, 0.3f, 64, true, null), "sushi");
     public static final Item RAW_SQUID_TENTACLE = register(new UFFoodItem(2, 0.3f, 64, true), "raw_squid_tentacle");
     public static final Item COOKED_SQUID_TENTACLE = register(new UFFoodItem(5, 0.8f, 64, true), "cooked_squid_tentacle");
@@ -67,7 +62,6 @@ public class ModItems {
     public static final Item CARROT_PIE = register(new UFFoodItem(9, 0.8f, true), "carrot_pie");
     public static final Item HOT_CHOCOLATE_MILK_BOTTLE = register(new BottleItem(5, 9, true, true), "hot_chocolate_milk_bottle");
     public static final Item CHOCOLATE_ICE_CREAM = register(new BowlItem(9, 0.8f, true), "chocolate_ice_cream");
-
     public static final Item MAGIC_ICE_CREAM = register(new MagicIceCreamItem(), "magic_ice_cream");
     public static final Item SQUID_SUSHI = register(new UFFoodItem(5, 0.3f, true), "squid_sushi");
     public static final Item CACTUS_JUICE = register(new JuiceItem(5, 0.6f), "cactus_juice");
